@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ClientOnboard.io — A proper client portal for freelancers</title>
+  <meta name="description" content="ClientOnboard.io gives independent freelancers a branded client onboarding portal. Magic link access, white-label branding, automatic follow-ups. $9/month. Join the waitlist." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAV
+  ============================================================ -->
+  <nav id="nav" aria-label="Main navigation">
+    <div class="nav-inner container">
+      <a href="#" class="logo" aria-label="ClientOnboard.io home">
+        <span class="logo-mark">⬡</span>
+        <span class="logo-text">ClientOnboard<span class="logo-dot">.io</span></span>
+      </a>
+      <a href="#hero-form" class="btn btn-nav" id="nav-cta">Get Early Access</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       SECTION 1: HERO
+  ============================================================ -->
+  <section id="hero" aria-labelledby="hero-heading">
+    <div class="container hero-grid">
+
+      <div class="hero-content">
+        <div class="hero-badge">Pre-launch — join the waitlist</div>
+
+        <h1 id="hero-heading">
+          The first thing your client sees<br>
+          shouldn't be a Google Drive link.
+        </h1>
+
+        <p class="hero-sub">
+          ClientOnboard.io gives you a proper client portal — your branding, your forms, one link. Clients don't create accounts. They upload what you need and you get notified when it's done.
+        </p>
+
+        <div id="hero-form" class="tally-iframe-wrapper">
+          <iframe data-tally-src="https://tally.so/embed/Bz0j11?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="152" frameborder="0" marginheight="0" marginwidth="0" title="ClientOnboardLanding"></iframe>
+          <p class="form-note">200+ freelancers on the list — free early access, no credit card</p>
+        </div>
+      </div>
+
+      <!-- Browser Mockup -->
+      <div class="hero-mockup" aria-hidden="true">
+        <div class="browser-chrome">
+          <div class="browser-bar">
+            <div class="browser-dots">
+              <span class="dot dot-red"></span>
+              <span class="dot dot-yellow"></span>
+              <span class="dot dot-green"></span>
+            </div>
+            <div class="browser-url">
+              <span class="url-lock">🔒</span>
+              <span class="url-text">portal.clientonboard.io/studio-reed</span>
+            </div>
+          </div>
+          <div class="browser-body">
+            <div class="portal-header">
+              <div class="portal-logo-placeholder">
+                <span class="portal-logo-icon">◆</span>
+                <span class="portal-logo-name">Reed Studio</span>
+              </div>
+              <div class="portal-step-label">Client Onboarding</div>
+            </div>
+
+            <div class="portal-progress">
+              <div class="progress-bar">
+                <div class="progress-fill" style="width: 33%"></div>
+              </div>
+              <span class="progress-text">Step 1 of 3 — Brand Assets</span>
+            </div>
+
+            <div class="portal-fields">
+              <div class="portal-field">
+                <div class="field-label">Brand Assets</div>
+                <div class="field-upload active-field">
+                  <div class="upload-icon">↑</div>
+                  <div class="upload-text">
+                    <span class="upload-main">Upload logo files</span>
+                    <span class="upload-sub">PNG, SVG, AI accepted · Max 50MB</span>
+                  </div>
+                  <div class="upload-status status-ready">Ready</div>
+                </div>
+              </div>
+
+              <div class="portal-field">
+                <div class="field-label">Project Brief</div>
+                <div class="field-upload">
+                  <div class="upload-icon">↑</div>
+                  <div class="upload-text">
+                    <span class="upload-main">Attach your brief or notes</span>
+                    <span class="upload-sub">PDF, DOC, DOCX · Max 20MB</span>
+                  </div>
+                  <div class="upload-status status-pending">Pending</div>
+                </div>
+              </div>
+
+              <div class="portal-field">
+                <div class="field-label">References</div>
+                <div class="field-upload">
+                  <div class="upload-icon">↑</div>
+                  <div class="upload-text">
+                    <span class="upload-main">Websites, images, or mood board</span>
+                    <span class="upload-sub">Any file type · Max 100MB</span>
+                  </div>
+                  <div class="upload-status status-pending">Pending</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="portal-footer-bar">
+              <div class="portal-footer-note">Secured with a one-time code. No account required.</div>
+              <button class="portal-next-btn">Next step →</button>
+            </div>
+          </div>
+        </div>
+        <div class="mockup-glow" aria-hidden="true"></div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 2: PROBLEM
+  ============================================================ -->
+  <section id="problem" aria-labelledby="problem-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="problem-heading" class="section-title">
+          Most freelancers start every project the exact same way.<br>
+          And it shows.
+        </h2>
+      </div>
+
+      <div class="problem-grid">
+
+        <article class="problem-card" aria-labelledby="prob1-title">
+          <h3 id="prob1-title" class="problem-card-title">The file chase</h3>
+          <p class="problem-card-body">The brief email gets sent. Then re-sent. Then followed up. Then your client uploads to a folder you didn't share. Then you're sorting files manually at 10pm before tomorrow's kickoff.</p>
+        </article>
+
+        <article class="problem-card" aria-labelledby="prob2-title">
+          <h3 id="prob2-title" class="problem-card-title">The Google Drive problem</h3>
+          <p class="problem-card-body">Shared folders look like you work out of a college email account. There's no structure, no reminders, no way to know if your client even opened it. You're charging $80/hr and onboarding like it's 2014.</p>
+        </article>
+
+        <article class="problem-card" aria-labelledby="prob3-title">
+          <h3 id="prob3-title" class="problem-card-title">The tools that exist</h3>
+          <p class="problem-card-body">HoneyBook is $19/month and puts its own logo on your client-facing work. Dubsado takes weeks to configure and has a learning curve that rivals some software you've been paid to build. Copilot is $39/month and built for agencies, not solo freelancers.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 3: SOLUTION
+  ============================================================ -->
+  <section id="solution" aria-labelledby="solution-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="solution-heading" class="section-title">
+          One link. Everything in one place.<br>
+          Your brand, not ours.
+        </h2>
+        <p class="section-sub">ClientOnboard.io handles the intake process so you can start the actual work.</p>
+      </div>
+
+      <div class="features-grid">
+
+        <article class="feature-card" aria-labelledby="feat1-title">
+          <div class="feature-num">01</div>
+          <h3 id="feat1-title" class="feature-title">Magic link access</h3>
+          <p class="feature-body">Your client gets a URL. They click it, verify with a one-time code sent to their email, and land on your portal. No app download, no account creation, no reason to call you for help.</p>
+        </article>
+
+        <article class="feature-card" aria-labelledby="feat2-title">
+          <div class="feature-num">02</div>
+          <h3 id="feat2-title" class="feature-title">White-label by default</h3>
+          <p class="feature-body">Your logo and colors, not ours. The client sees your name, your branding, your portal. There is no "Powered by" badge unless you're on the free plan.</p>
+        </article>
+
+        <article class="feature-card" aria-labelledby="feat3-title">
+          <div class="feature-num">03</div>
+          <h3 id="feat3-title" class="feature-title">Automatic follow-ups</h3>
+          <p class="feature-body">If a client stalls on uploading something, the system emails them. You don't have to be the one chasing.</p>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 4: HOW IT WORKS
+  ============================================================ -->
+  <section id="how-it-works" aria-labelledby="hiw-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="hiw-heading" class="section-title">
+          From zero to your first portal<br>in about three minutes.
+        </h2>
+      </div>
+
+      <div class="steps-grid">
+
+        <article class="step" aria-labelledby="step1-title">
+          <div class="step-number" aria-hidden="true">1</div>
+          <div class="step-content">
+            <h3 id="step1-title" class="step-title">Pick a template or build from scratch</h3>
+            <p class="step-body">Choose from pre-built templates for web design, SEO, social media management, or copywriting — or drag and drop your own fields. Text fields, file uploads, multiple choice. Build it once, reuse it for every client.</p>
+          </div>
+        </article>
+
+        <div class="step-connector" aria-hidden="true"></div>
+
+        <article class="step" aria-labelledby="step2-title">
+          <div class="step-number" aria-hidden="true">2</div>
+          <div class="step-content">
+            <h3 id="step2-title" class="step-title">Send the link</h3>
+            <p class="step-body">Copy the URL and paste it wherever you want, or let us send the email. That's the entire handoff.</p>
+          </div>
+        </article>
+
+        <div class="step-connector" aria-hidden="true"></div>
+
+        <article class="step" aria-labelledby="step3-title">
+          <div class="step-number" aria-hidden="true">3</div>
+          <div class="step-content">
+            <h3 id="step3-title" class="step-title">They upload, you get notified</h3>
+            <p class="step-body">When a client completes their portal, you get an email. If something's missing after a few days, the system follows up automatically.</p>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 5: COMPARISON
+  ============================================================ -->
+  <section id="comparison" aria-labelledby="comparison-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="comparison-heading" class="section-title">
+          Built for the freelancer working alone.<br>Not the agency.
+        </h2>
+      </div>
+
+      <div class="table-wrapper" role="region" aria-label="Comparison table" tabindex="0">
+        <table class="comparison-table" aria-describedby="comparison-heading">
+          <thead>
+            <tr>
+              <th scope="col">Tool</th>
+              <th scope="col">Monthly price</th>
+              <th scope="col">Client login required</th>
+              <th scope="col">Your branding</th>
+              <th scope="col">Setup time</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="highlight-row" aria-label="ClientOnboard.io (highlighted)">
+              <td class="tool-name">
+                <span class="tool-badge">ClientOnboard.io</span>
+              </td>
+              <td>$9/mo</td>
+              <td class="check-cell"><span class="check-icon">✓</span> No — magic link</td>
+              <td class="check-cell"><span class="check-icon">✓</span> Fully yours</td>
+              <td class="check-cell"><span class="check-icon">✓</span> Under 5 minutes</td>
+            </tr>
+            <tr>
+              <td class="tool-name">HoneyBook</td>
+              <td>$19/mo</td>
+              <td class="cross-cell"><span class="cross-icon">✗</span> Yes</td>
+              <td class="cross-cell"><span class="cross-icon">✗</span> Forces its own</td>
+              <td class="cross-cell"><span class="cross-icon">✗</span> Days</td>
+            </tr>
+            <tr>
+              <td class="tool-name">Dubsado</td>
+              <td>$20/mo</td>
+              <td class="cross-cell"><span class="cross-icon">✗</span> Yes</td>
+              <td class="neutral-cell">— Partial</td>
+              <td class="cross-cell"><span class="cross-icon">✗</span> Weeks</td>
+            </tr>
+            <tr>
+              <td class="tool-name">Google Drive</td>
+              <td>Free</td>
+              <td class="check-cell"><span class="check-icon">✓</span> No</td>
+              <td class="cross-cell"><span class="cross-icon">✗</span> None</td>
+              <td class="cross-cell"><span class="cross-icon">✗</span> Manual every time</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <p class="comparison-footnote">
+        Copilot starts at $39/month. ManyRequests at $99/month. Both are good products. Neither is built for a solo freelancer who just wants the intake process to not embarrass them.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 6: QUOTES
+  ============================================================ -->
+  <section id="quotes" aria-labelledby="quotes-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="quotes-heading" class="section-title">
+          This is a real and widespread problem.
+        </h2>
+      </div>
+
+      <div class="quotes-grid">
+
+        <blockquote class="quote-card" aria-label="Quote from web designer on r/freelance">
+          <div class="quote-meta">
+            <span class="quote-subreddit">r/freelance</span>
+            <span class="quote-upvote">▲ 847</span>
+          </div>
+          <p class="quote-text">"My proposals look nothing like my actual design work. My work is clean. My proposals are a PDF from 2021."</p>
+          <footer class="quote-author">— Web designer, r/freelance</footer>
+        </blockquote>
+
+        <blockquote class="quote-card" aria-label="Quote from freelancer on r/webdev">
+          <div class="quote-meta">
+            <span class="quote-subreddit">r/webdev</span>
+            <span class="quote-upvote">▲ 1.2k</span>
+          </div>
+          <p class="quote-text">"Sharing Google Drive folders looks unprofessional when you're charging premium rates."</p>
+          <footer class="quote-author">— Freelancer, r/webdev</footer>
+        </blockquote>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 7: PRICING
+  ============================================================ -->
+  <section id="pricing" aria-labelledby="pricing-heading">
+    <div class="container">
+      <div class="section-header">
+        <h2 id="pricing-heading" class="section-title">
+          Simple pricing. No per-seat fees,<br>no agency tiers.
+        </h2>
+      </div>
+
+      <div class="pricing-grid">
+
+        <!-- Free Plan -->
+        <article class="pricing-card" aria-labelledby="plan-free-title">
+          <div class="plan-header">
+            <h3 id="plan-free-title" class="plan-name">Free</h3>
+            <div class="plan-price">
+              <span class="price-amount">$0</span>
+              <span class="price-period">forever</span>
+            </div>
+          </div>
+          <ul class="plan-features" aria-label="Free plan features">
+            <li><span class="feat-check">✓</span> 2 active portals</li>
+            <li><span class="feat-check">✓</span> File and form collection</li>
+            <li><span class="feat-check">✓</span> Magic link access</li>
+            <li><span class="feat-muted">— "Powered by ClientOnboard" on the portal</span></li>
+          </ul>
+          <a href="#hero-form" class="btn btn-secondary btn-full" id="free-plan-cta">Join the waitlist</a>
+        </article>
+
+        <!-- Pro Plan -->
+        <article class="pricing-card pricing-card-pro" aria-labelledby="plan-pro-title">
+          <div class="plan-badge">Most popular</div>
+          <div class="plan-header">
+            <h3 id="plan-pro-title" class="plan-name">Pro</h3>
+            <div class="plan-price">
+              <span class="price-amount">$9</span>
+              <span class="price-period">/month or $90/year</span>
+            </div>
+          </div>
+          <ul class="plan-features" aria-label="Pro plan features">
+            <li><span class="feat-check">✓</span> Unlimited portals</li>
+            <li><span class="feat-check">✓</span> White-label (your branding, no badge)</li>
+            <li><span class="feat-check">✓</span> Automated client reminders</li>
+            <li><span class="feat-check">✓</span> Ready-made templates</li>
+            <li><span class="feat-check">✓</span> Priority support</li>
+          </ul>
+          <a href="#hero-form" class="btn btn-primary btn-full" id="pro-plan-cta">Get early access</a>
+        </article>
+
+      </div>
+
+      <p class="pricing-footnote">
+        People who join the waitlist lock in the $9/month rate permanently.
+      </p>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SECTION 8: FINAL CTA
+  ============================================================ -->
+  <section id="final-cta" aria-labelledby="final-heading">
+    <div class="container">
+      <div class="final-cta-inner">
+        <h2 id="final-heading" class="final-title">
+          ClientOnboard is in development. If you're a freelancer tired of starting every project with an email thread, get on the list.
+        </h2>
+        <p class="final-sub">No spam. No credit card. Just early access and locked-in pricing when we launch.</p>
+
+        <div id="final-form" class="tally-iframe-wrapper final-wrapper">
+          <iframe data-tally-src="https://tally.so/embed/Bz0j11?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="152" frameborder="0" marginheight="0" marginwidth="0" title="ClientOnboardLanding"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer id="footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <span class="logo-mark">⬡</span>
+        <span class="logo-text">ClientOnboard<span class="logo-dot">.io</span></span>
+      </div>
+      <div class="footer-right">
+        <p class="footer-copy">&copy; 2025 ClientOnboard.io. All rights reserved.</p>
+        <a href="#" class="footer-link" id="privacy-link">Privacy Policy</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Success Toast -->
+  <div id="toast" class="toast" role="alert" aria-live="polite" aria-atomic="true">
+    <span class="toast-icon">✓</span>
+    <span class="toast-text">You're on the list. We'll reach out when we launch.</span>
+  </div>
+
+  <script src="https://tally.so/widgets/embed.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
