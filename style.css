@@ -36,6 +36,8 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  width: 100vw;
 }
 
 body {
@@ -1213,21 +1215,27 @@ h1 {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   :root {
     --section-pad: 64px;
   }
 
-  .features-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .quotes-grid {
-    grid-template-columns: 1fr;
-  }
-
+  .features-grid,
+  .quotes-grid,
   .pricing-grid {
     grid-template-columns: 1fr;
+  }
+
+  .hero-badge {
+    white-space: normal;
+  }
+
+  .hero-mockup {
+    display: none;
+  }
+
+  .hero-content {
+    margin: 0 auto;
   }
 
   .form-row {
@@ -1250,9 +1258,16 @@ h1 {
     gap: 6px;
   }
 
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
   .comparison-table th,
   .comparison-table td {
     padding: 12px 14px;
+    white-space: nowrap;
   }
 
   .hero-sub {
@@ -1262,32 +1277,28 @@ h1 {
 
 @media (max-width: 480px) {
   .container {
-    padding: 0 18px;
+    padding: 0 16px;
   }
 
   h1 {
-    font-size: 1.875rem;
+    font-size: 1.875rem; /* ~30px */
     letter-spacing: -0.03em;
+  }
+
+  .btn-nav {
+    padding: 6px 10px;
+    font-size: 0.75rem;
   }
 
   .section-title {
     font-size: 1.5rem;
   }
 
-  .problem-card {
-    padding: 28px 22px;
-  }
-
-  .feature-card {
-    padding: 24px;
-  }
-
-  .quote-card {
-    padding: 22px 24px;
-  }
-
+  .problem-card,
+  .feature-card,
+  .quote-card,
   .pricing-card {
-    padding: 28px 24px;
+    padding: 24px 20px;
   }
 
   .toast {
